@@ -26,8 +26,9 @@ public class StudentDao {
 		return "Saved";
 	}
 
-	public String  getvalue(int a) {
-		return sr.getById(a).getName();
+	public String  getvalue(int b) {
+		 return sr.findById(b).get().getName();
+		 
 		
 	}
 	

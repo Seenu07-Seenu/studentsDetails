@@ -32,11 +32,8 @@ public class StudentService {
 		
 	}
 
-	public String getvalue(int a) {
-		
-		
-		//Student a1 = sa.findById(a).get();
-		return sd.getvalue(a);
+	public String getvalue(int b) {
+		return sd.getvalue(b);
 	}
 	
 	public int getper(int a) {
