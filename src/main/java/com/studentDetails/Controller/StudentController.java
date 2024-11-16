@@ -35,9 +35,9 @@ public class StudentController {
 		return ss.post(a);
 	}
 	
-	@GetMapping("/getvalue/{b}")
-	public String getvalue(@PathVariable int b){
-		return ss.getvalue(b);
+	@GetMapping("/getvalue/{c}")
+	public String getvalue(@PathVariable int c){
+		return ss.getvalue(c);
 	}
 	
 	@GetMapping("/getper/{a}")
